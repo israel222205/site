@@ -1,0 +1,28 @@
+body {
+    font-family: Arial,  sans-serif; /* Font family */
+    font-size: 16px; /* O tamanho da fonte principal<p></p> tag  */
+    background-color: #c1d2ff; /* A cor do plano de fundo da página */
+    color: #333333; /* A cor do texto */ 
+}
+
+h1 {
+    color: #ffffff; /* A cor do cabeçalho */
+    font-size: 42px; /* A cor da fonte do cabeçalho */
+    font-family: Georgia, serif; /* A font usada no cabeçalho*/
+}
+
+h2 {
+    color: #ffffff;
+    font-size: 30px;
+    font-family: Arial,  sans-serif;
+}
+
+@keyframes color-change {
+  0%   { color: blue; }
+  50%  { color: red; }
+  100% { color: blue; }
+}
+
+h1:hover {
+  animation: color-change 3s infinite;
+}
